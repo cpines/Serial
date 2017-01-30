@@ -20,7 +20,7 @@ void setup()                    // run once, when the sketch starts
 {
   Serial.begin(9600);           // set up Serial library at 9600 bps
 
-  Serial.println("Lets calculate a hypoteneuse");
+  Serial.println("Let's calculate a hypoteneuse");
 
   Serial.print("a = ");
   Serial.println(a);
