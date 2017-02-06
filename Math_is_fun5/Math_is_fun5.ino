@@ -28,8 +28,6 @@ void setup()                    // run once, when the sketch starts
   Serial.print("It can store ");
   Serial.print(drive_mb);
   Serial.println(" Megabytes!");    
-  /* As we can see in the terminal of Arduino, does not give us the result that tells us 
-     the announced, but gives us -28672 */ 
   
 }
 
