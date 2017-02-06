@@ -36,7 +36,7 @@ void setup()                    // run once, when the sketch starts
 
 
 //********** Loop *****************************************************************
-void loop()                 // run over and over again
+void loop()                 // we need this to be here even though its empty
 {
   
 }
