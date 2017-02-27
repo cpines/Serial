@@ -14,7 +14,7 @@ int sensorReading = 4;
 void setup()
 {
   Serial.begin(9600);
-  Serial.print("The day is  "); 
+  Serial.print("The day is "); 
    
   switch (sensorReading) {
   case 0:    
