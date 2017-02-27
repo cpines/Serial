@@ -8,29 +8,19 @@
 //********** Includes *************************************************************
 
 //********** Variables ************************************************************
-int sensorReading = 3;
+int comptar = 11;
 
 //********** Setup ****************************************************************
-void setup()
+void setup()                    // run once, when the sketch starts
 {
-  Serial.begin(9600);
-  Serial.print("The day is "); 
-   
-  switch (sensorReading) {
-  case 0:    
-    Serial.println("dark");
-    break;
-  case 1:    
-    Serial.println("dim");
-    break;
-  case 2:    
-    Serial.println("medium");
-    break;
-  case 3:
-    Serial.println("bright");
-    break;
-  default:
-    Serial.println("... I don't know!!!");
+  Serial.begin(9600);       // set up Serial library at 9600 bps
+ 
+  Serial.print("Ara comptare de 0 a ");
+  Serial.println(comptar);
+  for (int i=0; i <= comptar; i++)
+  {
+    Serial.print(i);
+    Serial.print("-");
   } 
 }
 
