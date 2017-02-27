@@ -7,7 +7,7 @@ void setup()             // run once, when the sketch starts
 
   Serial.println("Different formats for the same number:");
 
-  Serial.write(num);
+  Serial.write(num); //a string to send as a series of bytes
   Serial.println();
   
   Serial.println(num);
